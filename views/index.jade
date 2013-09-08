@@ -3,10 +3,10 @@ extends layout
 block content
   
   div.row-fluid
-    div.span2
+    div.infotile.span2
       h1= title
       p Welcome to #{title}
-    div#worldmap.span4.offset2
+//    div#worldmap.span4.offset2
       script(type='text/javascript', src="http://d3js.org/d3.geo.projection.v0.min.js")
       script(type='text/javascript', src="http://d3js.org/topojson.v1.min.js")
       script(type='text/javascript', src='/d3/worldmap.js')
