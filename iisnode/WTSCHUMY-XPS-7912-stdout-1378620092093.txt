@@ -37,3 +37,36 @@ Express server listening on port \\.\pipe\656c0c46-c1f6-4b84-851d-4f89182ae2ec
 [90mGET / [36m304 [90m68ms[0m
 [90mGET / [36m304 [90m73ms[0m
 [90mGET / [36m304 [90m81ms[0m
+[90mGET / [32m200 [90m55ms - 1.63kb[0m
+[90mGET /stylesheets/..imgLogo.png [33m404 [90m1ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m79ms[0m
+[90mGET /stylesheets/imgLogo.png [33m404 [90m1ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m73ms[0m
+[90mGET /stylesheets/imgLogo.png [33m404 [90m0ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m87ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m68ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m2ms[0m
+[90mGET / [32m200 [90m39ms - 1.3kb[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m3ms[0m
+[90mGET / [32m200 [90m57ms - 1.3kb[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m2ms[0m
+[90mGET / [36m304 [90m64ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m2ms[0m
+[90mGET / [36m304 [90m58ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m56ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m3ms[0m
+[90mGET / [36m304 [90m43ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m3ms[0m
+[90mGET / [36m304 [90m72ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m76ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m62ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m40ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m

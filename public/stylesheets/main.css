@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI",sans-serif;
-  margin: 100px 40px 40px;
+  margin: 10px 40px 40px;
   color: #333;
 
 }
@@ -21,7 +21,13 @@ body {
   padding: 10px;
   margin: 5px !important;
 }
-
+#LogoDiv {width: 148px;
+          height: 82px;
+          background-image: url(/img/Logo.png);
+          background-repeat: no-repeat;
+          margin-left: 5px;
+          margin-bottom: 5px;
+}
 #linearGraphJobs {
     position: absolute;
     left:  800px;
