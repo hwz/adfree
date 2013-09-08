@@ -1,5 +1,66 @@
 $(document).ready(function () {
 
+    $(".visitors-sparkline").sparkline([4,3,2,1,1,4,6,8,8,5,3,2], {
+    type: 'line',
+    width: '100%',
+    height: '60 ',
+    lineColor: '#EEE',
+    fillColor: '#ff6666',
+    spotColor: undefined,
+    minSpotColor: undefined,
+    maxSpotColor: undefined,
+    highlightSpotColor: undefined,
+    highlightLineColor: undefined});
+
+    $(".freeloaders-sparkline").sparkline([3,4,5,4,3,3,4,4,5,6,6,7], {
+    type: 'line',
+    width: '100%',
+    height: '60 ',
+    lineColor: '#EEE',
+    fillColor: '#ff6666',
+    spotColor: undefined,
+    minSpotColor: undefined,
+    maxSpotColor: undefined,
+    highlightSpotColor: undefined,
+    highlightLineColor: undefined});
+
+
+    $(".revenue-sparkline").sparkline([5,6,7,6,6,4,4,3,4,6,7,8], {
+    type: 'line',
+    width: '100%',
+    height: '60 ',
+    lineColor: '#EEE',
+    fillColor: '#62c462',
+    spotColor: undefined,
+    minSpotColor: undefined,
+    maxSpotColor: undefined,
+    highlightSpotColor: undefined,
+    highlightLineColor: undefined});
+
+    $(".jobs-sparkline").sparkline([3,3,4,4,5,6,5,5,4,4,4,3], {
+    type: 'line',
+    width: '100%',
+    height: '60 ',
+    lineColor: '#EEE',
+    fillColor: '#fbb450',
+    spotColor: undefined,
+    minSpotColor: undefined,
+    maxSpotColor: undefined,
+    highlightSpotColor: undefined,
+    highlightLineColor: undefined});
+
+    $(".completed-sparkline").sparkline([1,1,2,3,4,4,5,6,7,8,8,9], {
+    type: 'line',
+    width: '100%',
+    height: '60 ',
+    lineColor: '#EEE',
+    fillColor: '#62c462',
+    spotColor: undefined,
+    minSpotColor: undefined,
+    maxSpotColor: undefined,
+    highlightSpotColor: undefined,
+    highlightLineColor: undefined});
+
     var datacenterLocations = new Array();
 
     var jobsdata = new Array();

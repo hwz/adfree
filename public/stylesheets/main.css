@@ -2,7 +2,7 @@ body {
   font-family: "Segoe UI",sans-serif;
   margin: 10px 40px 40px;
   color: #333;
-
+  background-color: #111;
 }
 #topnav{
   min-height: 80px;
@@ -14,13 +14,15 @@ body {
   font-size: 18px;
   color: #000;
 }
-.infotile{
-  height: 300px;
+.infotile {
+  height: 188px;
   min-width: 300px;
   background-color: #eeeeee;
-  padding: 10px;
+  padding: 0px;
   margin: 5px !important;
+  position: relative;
 }
+
 #LogoDiv {width: 142px;
           height: 82px;
           background-image: url(/img/Logo.png);
@@ -28,23 +30,35 @@ body {
           margin-left: 5px;
           margin-bottom: 5px;
 }
-#Avatar {width: 60px;
-         height: 60px;
-         background-image: url(/img/Avatar.png);
-         background-repeat: no-repeat;
-         margin-left: 5px;
-         margin-bottom: 5px;
+#Avatar {
+  width: 60px;
+  height: 60px;
+  background-image: url(/img/Avatar.png);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
-.veryBad {background-color: #aa0000;
-          border-bottom: 9px solid #f66;
+
+.veryBad {
+  background-color: #bd362f;
+  border-bottom: 9px solid #f66;
 }
-.veryGood {background-color: #00aa00;
-           border-bottom: 9px solid #6f6;
+
+.veryGood {
+  background-color: #51a351;
+  border-bottom: 9px solid #62c462;
 }
-.bad {background-color: #ffcccc;
-      border-bottom: 5px solid #f66;}
-.good {background-color: #ccffcc;
-       border-bottom: 5px solid #6f6;}
+
+.bad {
+  background-color: #f89406;
+  border-bottom: 9px solid #fbb450;
+}
+
+.good {
+  background-color: #ccffcc;
+  border-bottom: 5px solid #6f6;
+}
+
 h1 {
     margin: -10px 0px 0px 0px;
     font-size: 86px;
@@ -55,19 +69,29 @@ h2 {font-size: 26px;
     line-height: 34px;
     font-weight: 100;
 }
-.infotile p {font-size: 20px;
-             margin-bottom: 24px;
-             font-weight: lighter;             
+
+.infotile h1 {
+  margin-left: 10px;
 }
-.veryGood h1, .veryGood p, .veryBad h1, .veryBad p, .veryGood h2, .veryBad h2 {color: #eeeeee;}
+
+.infotile p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 24px;
+  font-weight: lighter;
+}
+
+.veryGood, .veryBad, .good, .bad { color: #eeeeee; }
+
 p.indi {
-    float: inside;
-    text-align: right;
-    font-family: 'Segoe UI';
-    font-size: 46px;
-    margin-top: 115px;
-    line-height: 50px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  text-align: right;
+  font-size: 30px;
 }
+
 .infotile li {font-size: 24px;
     line-height: 28px;
     margin-left: 25px;
