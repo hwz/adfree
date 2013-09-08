@@ -3,24 +3,30 @@ $(document).ready(function () {
 
 
   var data = [
-				{ y: 5452343, label: "Completed: \n{y}", color: "#B8FF94" },
+				{ y: 5452343, label: "Completed: \n{y}", color: "#62c462" },
 				{ y: 3499200, label: "Remaining: \n{y}", color: "#DBFFDB" },
-				{ y: 203000, label: "Processing: \n{y}", color: "#66FF66" }
+				{ y: 203000, label: "Processing: \n{y}", color: "#fbb450" }
 				];
 
   var donut = new CanvasJS.Chart("chartContainer",
 		{
 		  title: {
-		    text: "SFPD Data Crunchin'"
+		    text: "SFPD Data Crunchin'",
+            fontSize: 21,
+            fontWeight: "normal",
+            fontColor: "#eee",
+            horizontalAlign: "left"
 		  },
 		  data: [
 			{
 			  type: "doughnut",
 			  startAngle: 60,
 			  toolTipContent: "{y} jobs",
-			  indexLabelFontColor: 'black',
+			  indexLabelFontColor: '#eee',
 			  indexLabelLineColor: 'transparent',
-			  dataPoints: data
+			  dataPoints: data,
+              indexLabelFontWeight: "bold",
+              indexLabelFontSize: 20
 			}
 			]
 
@@ -76,7 +82,3 @@ $(document).ready(function () {
   setInterval(function () { updateCharts() }, updateInterval);
 
 });
-
-		
-
-	

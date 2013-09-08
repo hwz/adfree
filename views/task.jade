@@ -11,16 +11,19 @@ block content
           div#Avatar
             p Advertiser
     div.row-fluid
-        div.largetile.span6.veryGood
+        div.largetile.span6.veryGood(style="height: 386px; margin-top: 5px; margin-right: 4px")
             div#chartContainer
-        div.infotile.start.span2.veryGood
-            h3 Details
-            p Dataset: crimes.csv
-            p Export To: Azure
-            p Job Cost: $5.00
+        div.infotile.start.span2.bleh
+            p Details
+            div.tileText
+                span Dataset: crimes.csv
+                br
+                span Export To: Azure
+                br
+                span Job Cost: $5.00
         div.infotile.start.span2.bad
             p Time to Completion
-            h2(id='timer');
+            h1(id='timer', style="font-size: 5em");
          div.infotile.veryGood.span2
             p Jobs Done Today
             h1#jobsDone &nbsp;
