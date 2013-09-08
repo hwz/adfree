@@ -18,3 +18,21 @@ circle {
 circleFill {
     fill: #1e1e2e;
 }
+
+svg {
+  font: 10px sans-serif;
+  color: #feb212;
+}
+ 
+.line {
+  fill: none;
+  stroke: #f6e16e;
+  stroke-width: 3px;
+}
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #f6e16e;
+  shape-rendering: crispEdges;
+}

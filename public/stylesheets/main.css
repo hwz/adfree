@@ -20,7 +20,12 @@ body {
   padding: 10px;
   margin: 5px !important;
 }
-.veryBad {background-color: #aa0000;}
+
+#linearGraphJobs {
+    position: absolute;
+    left:  800px;
+    top:  100px;
+}.veryBad {background-color: #aa0000;}
 .veryGood {background-color: #00aa00;}
 .bad {background-color: #ffcccc;}
 .good {background-color: #ccffcc;}
