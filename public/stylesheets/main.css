@@ -14,9 +14,31 @@ body {
   color: #000;
 }
 .infotile{
-  height: 240px;
+  height: 300px;
   min-width: 300px;
   background-color: #eeeeee;
   padding: 10px;
   margin: 5px !important;
+}
+.veryBad {background-color: #aa0000;}
+.veryGood {background-color: #00aa00;}
+.bad {background-color: #ffcccc;}
+.good {background-color: #ccffcc;}
+h1 {
+    margin: -10px 0px 0px 0px;
+    font-size: 90px;
+    line-height: 86px;
+}
+h2 {font-size: 26px;
+    line-height: 24px;
+    font-weight: 100;
+}
+.veryGood h1, .veryGood p, .veryBad h1, .veryBad p {color: #eeeeee;}
+p.indi {
+    float: inside;
+    text-align: right;
+    font-family: 'Segoe UI';
+    font-size: 46px;
+    margin-top: 125px;
+    line-height: 50px;
 }

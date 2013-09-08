@@ -1,0 +1,39 @@
+SyntaxError: C:\Users\wtschumy\Documents\My Web Sites\EmptySite\views\index.jade:8
+    6|     div.infotile.span2
+    7|       p Visitors
+  > 8|       h1= 23.6k
+    9|     div.infotile.span2
+    10|       h2 HEY GUYS
+    11|     div.infotile.span2
+
+Unexpected token ILLEGAL
+    at Function (unknown source)
+    at assertExpression (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.code (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:513:23)
+    at Object.Lexer.next (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:785:15)
+    at Object.Lexer.lookahead (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Users\wtschumy\Documents\My Web Sites\EmptySite\views\index.jade:8
+    6|     div.infotile.span2
+    7|       p Visitors
+  > 8|       h1= 23.6k title
+    9|       p Welcome to #{title}
+    10|     div.infotile.span2
+    11|       h2 HEY GUYS
+
+Unexpected token ILLEGAL
+    at Function (unknown source)
+    at assertExpression (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.code (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:513:23)
+    at Object.Lexer.next (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:785:15)
+    at Object.Lexer.lookahead (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Users\wtschumy\Documents\My Web Sites\EmptySite\node_modules\jade\lib\parser.js:625:17)
