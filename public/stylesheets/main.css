@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI,san-serif";
+  font-family: "Segoe UI",sans-serif;
   margin: 100px 40px 40px;
 
 }
@@ -12,7 +12,7 @@ body {
 .infotile{
   height: 300px;
   min-width: 300px;
-  background-color: #aaaaaa;
+  background-color: #cccccc;
   padding: 20px;
   margin: 10px;
 }
