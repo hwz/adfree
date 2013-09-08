@@ -112,7 +112,7 @@ $(document).ready(function () {
                 var r = that.attr("r");
                 that.attr("r", r / 1.5);
             });
-        setTimeout(function () { removeCircle(newCircle) }, randomRange(5000, 9000));
+        setTimeout(function () { removeCircle(newCircle) }, randomRange(3000, 5000));
     }
 
     function removeCircle(circle) {
@@ -128,13 +128,14 @@ $(document).ready(function () {
     function circleMagic() {
         // Let's randomly determine whether the job has been completed
         addCircle();
-        setTimeout(circleMagic, randomRange(700, 1200));
+        setTimeout(circleMagic, randomRange(300, 700));
     }
 
     function jobsInProcess() { }
 
     function updateJobsDone() {
         $("h1#jobsDone").text(jobsdata.done.toString());
+        $(".progressProjection").val(jobsdata.done).trigger('change');
     }
 
     function randomRange(minVal, maxVal, floatVal) {
@@ -146,8 +147,8 @@ $(document).ready(function () {
         $('#userButton').click(function () {
             $('#map').animate({ width: 'toggle' });
             $('.map').animate({ width: 'toggle' });
-            $('#linearGraphJobs').fadeIn();
-            $('.start').fadeOut();
+            $('#linearGraphJobs').fadeToggle();
+            $('.start').fadeToggle();
             console.log("Toggling map!")
         });
     }
@@ -160,6 +161,7 @@ $(document).ready(function () {
         for (i = 0; i < 15; i++) {
             addCircle(datacenterLocations[i]);
         }
+        $(".progressProjection").knob();
         animateStroke(400);
         circleMagic();
         setupUserButton();

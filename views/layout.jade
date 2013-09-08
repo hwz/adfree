@@ -7,26 +7,8 @@ html
     link(rel='stylesheet', href='/stylesheets/main.css')
     link(rel='stylesheet', href='/stylesheets/map.css')
     script(type='text/javascript', src='/js/lib/jquery-1.10.1.min.js')
-    script(type='text/javascript', src='/js/lib/jquery.knob.js')
+    script(type='text/javascript', src='/js/lib/jquery.knob2.js')
     script(type='text/javascript', src='/js/lib/bootstrap.min.js')
     script(type='text/javascript', src='/js/lib/d3.v3.min.js') 
   body
-    div.navbar.navbar-fixed-top
-      div#topnav.navbar-inner
-        div.container.span2
-          [Logo] www.Mysite.com
-        div.container.pull-right
-          a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
-            a(href='#').brand #{brand}
-            ul.nav.pull-right
-              - var obj = { 'home':'Home', 'about':'About', 'account': 'Your Account' }
-                - each val, key in obj
-                  - if (id == key)
-                    li.active
-                      a(href='#{key}') #{val}
-                  - else            
-                    li
-                      a(href='#{key}') #{val}
-    
     block content
-    
