@@ -26,19 +26,26 @@ body {
 .good {background-color: #ccffcc;}
 h1 {
     margin: -10px 0px 0px 0px;
-    font-size: 90px;
-    line-height: 86px;
+    font-size: 86px;
+    line-height: 78px;
 }
 h2 {font-size: 26px;
-    line-height: 24px;
-    font-weight: 100;
+    line-height: 34px;
 }
-.veryGood h1, .veryGood p, .veryBad h1, .veryBad p {color: #eeeeee;}
+.infotile p {font-size: 20px;
+             margin-bottom: 24px;
+             font-weight: lighter;             
+}
+.veryGood h1, .veryGood p, .veryBad h1, .veryBad p, .veryGood h2, .veryBad h2 {color: #eeeeee;}
 p.indi {
     float: inside;
     text-align: right;
     font-family: 'Segoe UI';
     font-size: 46px;
-    margin-top: 125px;
+    margin-top: 115px;
     line-height: 50px;
+}
+.infotile li {font-size: 24px;
+    line-height: 28px;
+    margin-left: 25px;
 }
