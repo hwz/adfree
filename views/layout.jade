@@ -11,11 +11,11 @@ html
   body
     div.navbar.navbar-fixed-top
       div#topnav.navbar-inner
-        div.container
+        div.container.pull-right
           a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
             a(href='#').brand #{brand}
-            ul.nav
-              - var obj = { 'home':'Home', 'about':'About' }
+            ul.nav.pull-right
+              - var obj = { 'home':'Home', 'about':'About', 'account': 'Your Account' }
                 - each val, key in obj
                   - if (id == key)
                     li.active

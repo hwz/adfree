@@ -9,8 +9,9 @@ body {
   background-color: transparent !important;
   border: none;
   -webkit-box-shadow: none;
-  font: "Segoe UI" 18px;
-  
+  font-family: "Segoe UI";
+  font-size: 18px;
+  color: #000;
 }
 .infotile{
   height: 240px;
