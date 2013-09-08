@@ -29,6 +29,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.get('/compare', routes.compare);
 app.get('/users', user.list);
 app.get('/status/website', status.website);
 
