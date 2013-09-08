@@ -31,9 +31,7 @@
             theme: "theme1",
             animationEnabled: true,
             colorSet: "colorSet1",
-            culture: "en",
-            creditHref: "http://canvasjs.com/",
-            creditText: "CanvasJS.com"
+            culture: "en"
         },
 
         CultureInfo: {
