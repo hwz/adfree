@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  script(type='text/javascript', src='js/jquery-ui-1.8.13.custom.min.js')
+  script(type='text/javascript', src='js/jquery.beforeafter-1.4.min.js')
+  #container
+    div
+      img(alt='before', src='/img/highlight.jpg', height='522', width='800')
+    div
+      img(alt='after', src='/img/clean.jpg', height='522', width='800')
+  script.
+    $(document).ready(function() {
+      $('#container').beforeAfter({ imagePath: '/img/', animateIntro: true, showFullLinks: false });
+    });
