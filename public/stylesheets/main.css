@@ -64,6 +64,10 @@ body {
   border-bottom: 5px solid #6f6;
 }
 
+.titlebutton {
+  color: #EEE;
+}
+
 h1 {
     margin: -10px 0px 0px 0px;
     font-size: 86px;
@@ -73,6 +77,11 @@ h1 {
 h2 {font-size: 26px;
     line-height: 34px;
     font-weight: 100;
+}
+
+.bleh {
+  background-color: #999;
+  color: #EEE;
 }
 
 .infotile h1 {

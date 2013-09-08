@@ -6,6 +6,13 @@ block content
         div.pull-right
           div#Avatar
             p Joe Subscriber
+        div
+            div.btn-group
+                h2.titlebutton www.mywebsite.com <span class='caret'>&nbsp;</span>
+                a.btn.btn-large.dropdown-toggle(data-toggle="dropdown") www.mywebsite.com
+                ul.dropdown-menu(role='menu')
+                    li List
+                    li Something else!
     div.row-fluid
         script(type='text/javascript', src='/js/map.js')
         div#map.span1
@@ -17,7 +24,7 @@ block content
         div.map.infotile.veryGood.span2(style="display: none;")
             p Jobs Done Today
             h1#jobsDone &nbsp;
-            span.livejobs-sparkline &nbsp;            
+            span.livejobs-sparkline &nbsp;
         div.infotile.span2.veryBad#userButton
             p Visitors
             h1 23.4k
@@ -34,13 +41,13 @@ block content
             p.indi ▼
             span.jobs-sparkline &nbsp;
         div.row-fluid
-        div.infotile.start.span2
+        div.infotile.start.span2.bleh
             p Top Referrers
             ol
-            li TechCrunch.com
-            li reddit.com
-            li businessinsider.com
-            li theverge.com
+                li TechCrunch.com
+                li reddit.com
+                li businessinsider.com
+                li theverge.com
         div.infotile.start.span2.veryBad
             p Freeloaders
             h1 5,212

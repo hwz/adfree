@@ -11,5 +11,9 @@ html
     script(type='text/javascript', src='/js/lib/jquery.knob2.js')
     script(type='text/javascript', src='/js/lib/bootstrap.min.js')
     script(type='text/javascript', src='/js/lib/d3.v3.min.js') 
+    script.
+        $(document).ready(function() {
+            $('.dropdown-toggle').dropdown();
+        });
   body
     block content
