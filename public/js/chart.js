@@ -3,9 +3,9 @@ $(document).ready(function () {
 
 
   var data = [
-				{ y: 5452343, label: "Completed: \n{y}", color: "#B8FF94" },
+				{ y: 5452343, label: "Completed: \n{y}", color: "#62c462" },
 				{ y: 3499200, label: "Remaining: \n{y}", color: "#DBFFDB" },
-				{ y: 203000, label: "Processing: \n{y}", color: "#66FF66" }
+				{ y: 203000, label: "Processing: \n{y}", color: "#fbb450" }
 				];
 
   var donut = new CanvasJS.Chart("chartContainer",
