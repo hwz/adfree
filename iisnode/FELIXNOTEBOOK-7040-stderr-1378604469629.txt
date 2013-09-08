@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+Error: .get() requires callback functions but got a [object Undefined]
+    at Router.route.Route.sensitive (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\router\index.js:290:11)
+    at Array.forEach (native)
+    at Router.route (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\router\index.js:286:13)
+    at Router.methods.forEach.Router.(anonymous function) [as get] (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\router\index.js:308:16)
+    at Function.methods.forEach.app.(anonymous function) [as get] (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\application.js:414:26)
+    at Object.<anonymous> (C:\Users\feriese\Documents\GitHub\adfree\server.js:32:5)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)

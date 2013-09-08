@@ -1,0 +1,19 @@
+Error: C:\Users\feriese\Documents\GitHub\adfree\views\website.jade:3
+    1| extends layout
+    2| 
+  > 3|     div#map
+    4|       //script(type='text/javascript', src="http://d3js.org/d3.geo.projection.v0.min.js")
+    5|       //script(type='text/javascript', src="http://d3js.org/topojson.v1.min.js")
+    6|       //script(type='text/javascript', src='/d3/worldmap.js')
+
+unexpected token "indent"
+    at Object.Parser.parseExpr (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\parser.js:242:15)
+    at Object.Parser.parse (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\parser.js:134:25)
+    at parse (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\jade.js:93:62)
+    at Object.exports.compile (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\jade.js:142:9)
+    at Object.exports.render (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\jade.js:196:15)
+    at Object.exports.renderFile (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\jade.js:233:18)
+    at View.exports.renderFile [as engine] (C:\Users\feriese\Documents\GitHub\adfree\node_modules\jade\lib\jade.js:218:21)
+    at View.render (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (C:\Users\feriese\Documents\GitHub\adfree\node_modules\express\lib\response.js:798:7)

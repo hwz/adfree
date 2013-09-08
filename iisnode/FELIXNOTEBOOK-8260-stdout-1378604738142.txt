@@ -1,0 +1,27 @@
+Express server listening on port \\.\pipe\ed43b2d1-6d80-4cd9-b5f4-76cc95b1bbfc
+[90mGET / [32m200 [90m323ms - 1.03kb[0m
+[90mGET /status/website [32m200 [90m60ms - 1.08kb[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m2ms[0m
+[90mGET /status/website [32m200 [90m49ms - 1.1kb[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m31ms[0m
+[90mGET /status/website [32m200 [90m38ms - 1.07kb[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m19ms[0m
+[90mGET /status/website [36m304 [90m40ms[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m16ms[0m
+[90mGET /status/website [36m304 [90m36ms[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m57ms[0m
+[90mGET /status/website [32m200 [90m34ms - 989b[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m1ms[0m
+[90mGET /status/website [31m500 [90m14ms[0m
+[90mGET /status/website [32m200 [90m45ms - 986b[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m9ms[0m
+[90mGET / [36m304 [90m37ms[0m
+[90mGET /status/website [32m200 [90m37ms - 1.14kb[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m4ms[0m
+[90mGET / [36m304 [90m38ms[0m
+[90mGET /status/website [36m304 [90m43ms[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m6ms[0m
+[90mGET / [36m304 [90m71ms[0m
+[90mGET /status/website [36m304 [90m37ms[0m
+[90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m2ms[0m
