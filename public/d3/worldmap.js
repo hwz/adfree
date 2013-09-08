@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-
-.country {
-  fill: #ccc;
-  stroke: #fff;
-  stroke-width: .5px;
-  stroke-linejoin: round;
-}
-
-.graticule {
-  fill: none;
-  stroke: #000;
-  stroke-opacity: .3;
-  stroke-width: .5px;
-}
-
-.graticule.outline {
-  stroke: #333;
-  stroke-opacity: 1;
-  stroke-width: 1.5px;
-}
-
-</style>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-<script>
-
 var width = 960,
     height = 500;
 
@@ -56,7 +25,7 @@ svg.append("path")
     .attr("class", "graticule outline")
     .attr("d", path); */
 
-d3.json("d3/world-50m.json", function(error, world) {
+d3.json("/d3/world-50m.json", function(error, world) {
   var countries = topojson.feature(world, world.objects.countries).features,
       neighbors = topojson.neighbors(world.objects.countries.geometries);
   
@@ -68,6 +37,3 @@ d3.json("d3/world-50m.json", function(error, world) {
       .style("fill", "#DDDDDD");
       //.style("fill", function(d, i) { return color(d.color = d3.max(neighbors[i], function(n) { return countries[n].color; }) + 1 | 0); });
 });
-
-</script>
-</body>

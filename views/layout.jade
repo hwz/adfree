@@ -2,6 +2,26 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    script(type='text/javascript', src='js/lib/jquery-1.10.1.min.js')
+    script(type='text/javascript', src='/js/lib/bootstrap.min.js')
+    script(type='text/javascript', src='/js/lib/d3.v3.min.js') 
   body
-    block content
+    div.navbar.navbar-fixed-top.navbar-inverse
+      div.navbar-inner
+        div.container
+          a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
+            a(href='#').brand #{brand}
+            ul.nav
+              - var obj = { 'home':'Home', 'about':'About' }
+                - each val, key in obj
+                  - if (id == key)
+                    li.active
+                      a(href='#{key}') #{val}
+                  - else            
+                    li
+                      a(href='#{key}') #{val}
+    div.container
+      block content
+    
