@@ -1,6 +1,17 @@
 #map {
-    width: 1050px;
-    height: 476px;
+    width: 920px;
+    height: 610px;
+    float:  left;
+    display: none;
+    margin: 5px;
+}
+
+.map {
+    display: none;
+}
+
+#linearGraphJobs {
+    display: none;
 }
 
 #map svg {
@@ -27,7 +38,7 @@ svg {
 .line {
   fill: none;
   stroke: #f6e16e;
-  stroke-width: 3px;
+  stroke-width: 5px;
 }
  
 .axis path,
@@ -35,4 +46,16 @@ svg {
   fill: none;
   stroke: #f6e16e;
   shape-rendering: crispEdges;
+}
+
+#linearGraphJobs {
+    position: absolute;
+}
+
+.graph{
+    background-color: #333333;
+}
+
+.graph p {
+    color: #fff
 }
