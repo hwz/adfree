@@ -83,7 +83,28 @@ $(document).ready(function () {
         disableInteraction: true});
     }
 
-    setInterval(updateLiveJobs, 750);
+    var liveClientsData = [12,12,11,11,11,11,11,10,10,10,10,10,10,11,11,11,11,10,10,10,9,9,9,9,10,10,11,11,11,11,11,10,10,10,10,11,11,11,11,12,12,12,12];
+    function updateConnectedClients() {
+        var clients = liveClientsData.shift();
+        liveClientsData.push(clients);
+        $('#clientsConnected').text(clients);
+        $(".liveclients-sparkline").sparkline(liveClientsData, {
+        type: 'line',
+        width: '100%',
+        height: '60 ',
+        lineColor: '#EEE',
+        fillColor: '#62c462',
+        spotColor: undefined,
+        minSpotColor: undefined,
+        maxSpotColor: undefined,
+        highlightSpotColor: undefined,
+        highlightLineColor: undefined,
+        disableInteraction: true});
+    }
+
+    setInterval(updateLiveJobs, 600);
+
+    setInterval(updateConnectedClients, 700);
 
     var datacenterLocations = new Array();
 
