@@ -217,3 +217,4 @@ Express server listening on port \\.\pipe\f62026a7-b246-4eeb-bd2e-6b644f363e3c
 [90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
 [90mGET / [32m200 [90m101ms - 1.66kb[0m
 [90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m2ms[0m
+[90mGET / [32m200 [90m74ms - 1.64kb[0m
