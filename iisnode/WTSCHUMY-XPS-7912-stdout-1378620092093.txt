@@ -70,3 +70,63 @@ Express server listening on port \\.\pipe\656c0c46-c1f6-4b84-851d-4f89182ae2ec
 [90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m0ms[0m
 [90mGET / [36m304 [90m40ms[0m
 [90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m37ms - 1.37kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m9ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m3ms[0m
+[90mGET / [32m200 [90m70ms - 1.42kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m28ms[0m
+[90mGET / [36m304 [90m48ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m5ms[0m
+[90mGET / [36m304 [90m61ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m2ms[0m
+[90mGET / [36m304 [90m32ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m27ms[0m
+[90mGET / [36m304 [90m60ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m2ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m0ms[0m
+[90mGET / [32m200 [90m55ms - 1.41kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m26ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m29ms[0m
+[90mGET / [32m200 [90m40ms - 1.41kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m2ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m3ms[0m
+[90mGET / [36m304 [90m55ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m7ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m36ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m19ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m29ms[0m
+[90mGET / [36m304 [90m47ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m5ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m30ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m7ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m31ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m1ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m76ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m41ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m6ms[0m
+[90mGET / [36m304 [90m29ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m5ms[0m
+[90mGET / [32m200 [90m60ms - 1.43kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m9ms[0m
+[90mGET / [32m200 [90m60ms - 1.44kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m6ms[0m
+[90mGET / [36m304 [90m38ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m9ms[0m
+[90mGET / [36m304 [90m69ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m10ms[0m
+[90mGET / [36m304 [90m70ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m9ms[0m
+[90mGET / [36m304 [90m57ms[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m5ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m83ms - 1.44kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m5ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m74ms - 1.44kb[0m
+[90mGET /js/lib/jquery.knob.js [33m404 [90m3ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
