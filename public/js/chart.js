@@ -82,7 +82,3 @@ $(document).ready(function () {
   setInterval(function () { updateCharts() }, updateInterval);
 
 });
-
-		
-
-	
