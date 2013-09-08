@@ -31,7 +31,11 @@
             theme: "theme1",
             animationEnabled: true,
             colorSet: "colorSet1",
+<<<<<<< HEAD
             culture: "en"
+=======
+            culture: "en",
+>>>>>>> Task
         },
 
         CultureInfo: {

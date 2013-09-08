@@ -1,0 +1,57 @@
+[90mGET /status/task [32m200 [90m49ms - 1.58kb[0m
+[90mGET /status/task [36m304 [90m34ms[0m
+[90mGET /status/task [36m304 [90m51ms[0m
+[90mGET /status/task [32m200 [90m35ms - 1.6kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.62kb[0m
+[90mGET /status/task [36m304 [90m35ms[0m
+[90mGET /status/task [32m200 [90m30ms - 1.62kb[0m
+[90mGET /status/task [32m200 [90m40ms - 1.62kb[0m
+[90mGET /status/task [32m200 [90m52ms - 1.64kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.64kb[0m
+[90mGET /status/task [36m304 [90m31ms[0m
+[90mGET /status/task [36m304 [90m42ms[0m
+[90mGET /status/task [36m304 [90m32ms[0m
+[90mGET /status/task [36m304 [90m38ms[0m
+[90mGET /status/task [36m304 [90m37ms[0m
+[90mGET /status/task [32m200 [90m30ms - 1.64kb[0m
+[90mGET /status/task [32m200 [90m41ms - 1.64kb[0m
+[90mGET /status/task [32m200 [90m41ms - 1.64kb[0m
+[90mGET /status/task [32m200 [90m49ms - 1.64kb[0m
+[90mGET /status/task [32m200 [90m45ms - 1.67kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.66kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.66kb[0m
+[90mGET /status/task [32m200 [90m34ms - 1.66kb[0m
+[90mGET /status/task [32m200 [90m39ms - 1.66kb[0m
+[90mGET / [36m304 [90m44ms[0m
+[90mGET /status/task [32m200 [90m29ms - 1.68kb[0m
+[90mGET /status/task [32m200 [90m58ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m45ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m40ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m34ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m32ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m35ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m30ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m46ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m32ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m26ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m39ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m34ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m48ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m34ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m38ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m68ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m40ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m39ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m29ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m30ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m25ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m37ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m30ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m47ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m36ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m25ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m38ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m40ms - 1.7kb[0m
+[90mGET /status/task [32m200 [90m28ms - 1.71kb[0m
+[90mGET /status/task [32m200 [90m31ms - 1.71kb[0m

@@ -11,16 +11,22 @@ $(document).ready(function () {
   var donut = new CanvasJS.Chart("chartContainer",
 		{
 		  title: {
-		    text: "SFPD Data Crunchin'"
+		    text: "SFPD Data Crunchin'",
+            fontSize: 21,
+            fontWeight: "normal",
+            fontColor: "#eee",
+            horizontalAlign: "left"
 		  },
 		  data: [
 			{
 			  type: "doughnut",
 			  startAngle: 60,
 			  toolTipContent: "{y} jobs",
-			  indexLabelFontColor: 'black',
+			  indexLabelFontColor: '#eee',
 			  indexLabelLineColor: 'transparent',
-			  dataPoints: data
+			  dataPoints: data,
+              indexLabelFontWeight: "bold",
+              indexLabelFontSize: 20
 			}
 			]
 
