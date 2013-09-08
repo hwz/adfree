@@ -30,6 +30,7 @@ app.get('/users', user.list);
 app.get('/status/website', function(req, res) {
   res.redirect('/');
 });
+app.get('/status/task', status.task);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

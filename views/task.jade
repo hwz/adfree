@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    script(type='text/javascript', src='/js/map.js')
+    script(type='text/javascript', src='/js/lib/canvasjs.js')
+    script(type='text/javascript', src='/js/chart.js')
+    script(type='text/javascript', src='/js/lib/jquery.knob2.js')
+    div.row-fluid
+        div#LogoDiv.span8
+        div.pull-right
+          div#Avatar
+            p Advertiser
+    div.row-fluid
+        div.largetile.span6.veryGood
+            div#chartContainer
+        div.infotile.start.span2.veryGood
+            h3 Details
+            p Dataset: crimes.csv
+            p Export To: Azure
+            p Job Cost: $5.00
+    div.row-fluid
+        div.infotile.start.span2.bad
+            p Time to Completion
+            h2(id='timer');
+         div.infotile.veryGood.span2
+            p Jobs Done Today
+            h1#jobsDone &nbsp;
+            span.livejobs-sparkline &nbsp;  
+        div.infotile.start.span2.veryBad
+            p Freeloaders
+            h1 5,212
+            p.indi ▲ 
+            span.freeloaders-sparkline &nbsp;
+        
