@@ -25,7 +25,8 @@ body {
     position: absolute;
     left:  800px;
     top:  100px;
-}.veryBad {background-color: #aa0000;}
+}
+.veryBad {background-color: #aa0000;}
 .veryGood {background-color: #00aa00;}
 .bad {background-color: #ffcccc;}
 .good {background-color: #ccffcc;}
