@@ -8,7 +8,7 @@ var projection = d3.geo.kavrayskiy7(),
 var path = d3.geo.path()
     .projection(projection);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#worldmap").append("svg")
     .attr("width", width)
     .attr("height", height);
 
