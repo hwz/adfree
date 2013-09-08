@@ -65,7 +65,12 @@ body {
 }
 
 .titlebutton {
+  margin-left: 700px;
   color: #EEE;
+}
+
+.caret {
+  font-size: 0.5em;
 }
 
 h1 {
