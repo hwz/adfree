@@ -2,37 +2,44 @@ extends layout
 
 block content
   
-  div.row-fluid
-
-    script(type='text/javascript', src='/js/map.js')
-    div#map.span1
-        svg#mapgraph
-    div.infotile.span2.veryBad
-      p Visitors
-      h1 23.4k
-      p.indi ▼
-    div.infotile.span2.veryGood
-      p Revenue
-      h1 $503
-      p.indi ▲
-    div.infotile.span2.bad
-      p Jobs per Visitor
-      h1 2.31
-      p.indi ▼
-  div.row-fluid
-    div.infotile.span2
-      p Top Referrers
-      ol
-        li TechCrunch.com
-        li reddit.com
-        li businessinsider.com
-        li theverge.com
-        li venturebeat.com
-    div.infotile.span2.veryBad
-      p Freeloaders
-      h1 5,212 ▲
-      h2 13.2% ▲
-    div.infotile.span2.veryGood
-      p Jobs Completed
-      h1 89%
-      p.indi ▲
+    div.row-fluid
+        script(type='text/javascript', src='/js/map.js')
+        div#map.span1
+            svg#mapgraph
+        div#liveJobsTile.graph.map.infotile.span2(style="display: none;")
+            p Live Jobs
+        div.map.infotile.span2(style="display: none;")
+            p Jobs Done Today
+            h1#jobsDone
+        div.map.infotile.span2(style="display: none;")
+            p Progress Projection
+            h1#jobsDone
+        div.infotile.start.span2.veryBad#userButton
+            p Visitors
+            h1 23.4k
+            p.indi ▼
+        div.infotile.start.span2.veryGood
+            p Revenue
+            h1 $503
+            p.indi ▲
+        div.infotile.start.span2.bad
+            p Jobs per Visitor
+            h1 2.31
+            p.indi ▼
+        div.row-fluid
+        div.infotile.start.span2
+            p Top Referrers
+            ol
+            li TechCrunch.com
+            li reddit.com
+            li businessinsider.com
+            li theverge.com
+            li venturebeat.com
+        div.infotile.start.span2.veryBad
+            p Freeloaders
+            h1 5,212 ▲
+            h2 13.2% ▲
+        div.infotile.start.span2.veryGood
+            p Jobs Completed
+            h1 89%
+            p.indi ▲

@@ -7,12 +7,13 @@ html
     link(rel='stylesheet', href='/stylesheets/main.css')
     link(rel='stylesheet', href='/stylesheets/map.css')
     script(type='text/javascript', src='/js/lib/jquery-1.10.1.min.js')
+    script(type='text/javascript', src='/js/lib/jquery.knob.js')
     script(type='text/javascript', src='/js/lib/bootstrap.min.js')
     script(type='text/javascript', src='/js/lib/d3.v3.min.js') 
   body
     div.navbar.navbar-fixed-top
       div#topnav.navbar-inner
-        div
+        div.container.span2
           [Logo] www.Mysite.com
         div.container.pull-right
           a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
