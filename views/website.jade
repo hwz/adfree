@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  
+  div.row-fluid
+    div.span2
+      h1= title
+      p Welcome to #{title}
+    div#map
+      //script(type='text/javascript', src="http://d3js.org/d3.geo.projection.v0.min.js")
+      //script(type='text/javascript', src="http://d3js.org/topojson.v1.min.js")
+      //script(type='text/javascript', src='/d3/worldmap.js')
+      img(src='/img/worldmap.png', width='800', height='476')
