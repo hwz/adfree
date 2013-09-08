@@ -1,19 +1,21 @@
 extends layout
 
 block content
-  
+    div.row-fluid
+        div#LogoDiv.span8
+        div.pull-right
+          div#Avatar
+            p Joe Subscriber
     div.row-fluid
         script(type='text/javascript', src='/js/map.js')
         div#map.span1
             svg#mapgraph
         div#liveJobsTile.graph.map.infotile.span2(style="display: none;")
             p Live Jobs
-        div.map.infotile.span2(style="display: none;")
+        div.map.infotile.veryGood.span2(style="display: none;")
             p Jobs Done Today
-            h1#jobsDone
-        div.map.infotile.span2(style="display: none;")
-            p Progress Projection
-            input(type="text", value="500", data-min="0", data-max="1000", data-readOnly="true", data-bgColor="#333", data-displayInput="false", data-fgColor="#f6e16e", data-width="230", data-height="230" class="dial").progressProjection
+            h1#jobsDone &nbsp;
+            span.livejobs-sparkline &nbsp;            
         div.infotile.span2.veryBad#userButton
             p Visitors
             h1 23.4k

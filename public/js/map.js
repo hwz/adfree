@@ -10,7 +10,8 @@ $(document).ready(function () {
     minSpotColor: undefined,
     maxSpotColor: undefined,
     highlightSpotColor: undefined,
-    highlightLineColor: undefined});
+    highlightLineColor: undefined,
+    disableInteraction: true});
 
     $(".freeloaders-sparkline").sparkline([3,4,5,4,3,3,4,4,5,6,6,7], {
     type: 'line',
@@ -22,7 +23,8 @@ $(document).ready(function () {
     minSpotColor: undefined,
     maxSpotColor: undefined,
     highlightSpotColor: undefined,
-    highlightLineColor: undefined});
+    highlightLineColor: undefined,
+    disableInteraction: true});
 
 
     $(".revenue-sparkline").sparkline([5,6,7,6,6,4,4,3,4,6,7,8], {
@@ -35,7 +37,8 @@ $(document).ready(function () {
     minSpotColor: undefined,
     maxSpotColor: undefined,
     highlightSpotColor: undefined,
-    highlightLineColor: undefined});
+    highlightLineColor: undefined,
+    disableInteraction: true});
 
     $(".jobs-sparkline").sparkline([3,3,4,4,5,6,5,5,4,4,4,3], {
     type: 'line',
@@ -47,7 +50,8 @@ $(document).ready(function () {
     minSpotColor: undefined,
     maxSpotColor: undefined,
     highlightSpotColor: undefined,
-    highlightLineColor: undefined});
+    highlightLineColor: undefined,
+    disableInteraction: true});
 
     $(".completed-sparkline").sparkline([1,1,2,3,4,4,5,6,7,8,8,9], {
     type: 'line',
@@ -59,7 +63,27 @@ $(document).ready(function () {
     minSpotColor: undefined,
     maxSpotColor: undefined,
     highlightSpotColor: undefined,
-    highlightLineColor: undefined});
+    highlightLineColor: undefined,
+    disableInteraction: true});
+
+    var liveJobsData = [5,6,7,6,6,5,4,3,4,5,6,6,5,6,7,6,6,6,4,3,4,5,6,6];
+    function updateLiveJobs() {
+        liveJobsData.push(liveJobsData.shift());
+        $(".livejobs-sparkline").sparkline(liveJobsData, {
+        type: 'line',
+        width: '100%',
+        height: '60 ',
+        lineColor: '#EEE',
+        fillColor: '#62c462',
+        spotColor: undefined,
+        minSpotColor: undefined,
+        maxSpotColor: undefined,
+        highlightSpotColor: undefined,
+        highlightLineColor: undefined,
+        disableInteraction: true});
+    }
+
+    setInterval(updateLiveJobs, 750);
 
     var datacenterLocations = new Array();
 
@@ -73,7 +97,7 @@ $(document).ready(function () {
 
     var margin = { top: 0, right: 20, bottom: 20, left: 20 },
         width = 300 - margin.left - margin.right,
-        height = 255 - margin.top - margin.bottom;
+        height = 140 - margin.top - margin.bottom;
 
     var x = d3.scale.linear().domain([1, n - 2]).range([0, width]);
     var y = d3.scale.linear().domain([0, 25]).range([height, 0]);

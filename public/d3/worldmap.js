@@ -1,5 +1,5 @@
 var width = 960,
-    height = 500;
+    height = 480;
 
 var projection = d3.geo.kavrayskiy7(),
     color = d3.scale.category20(),
@@ -11,19 +11,6 @@ var path = d3.geo.path()
 var svg = d3.select("#worldmap").append("svg")
     .attr("width", width)
     .attr("height", height);
-
-
-/* graticule outlines drawings */
-/*
-svg.append("path")
-    .datum(graticule)
-    .attr("class", "graticule")
-    .attr("d", path);
-
-svg.append("path")
-    .datum(graticule.outline)
-    .attr("class", "graticule outline")
-    .attr("d", path); */
 
 d3.json("/d3/world-50m.json", function(error, world) {
   var countries = topojson.feature(world, world.objects.countries).features,
