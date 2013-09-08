@@ -1,6 +1,9 @@
 #map {
-    width: 1050px;
-    height: 476px;
+    width: 920px;
+    height: 610px;
+    float:  left;
+    display: block;
+    margin: 5px;
 }
 
 #map svg {
