@@ -10,22 +10,5 @@ html
     script(type='text/javascript', src='/js/lib/bootstrap.min.js')
     script(type='text/javascript', src='/js/lib/d3.v3.min.js') 
   body
-    div.navbar.navbar-fixed-top
-      div#topnav.navbar-inner
-        div
-          [Logo] www.Mysite.com
-        div.container.pull-right
-          a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
-            a(href='#').brand #{brand}
-            ul.nav.pull-right
-              - var obj = { 'home':'Home', 'about':'About', 'account': 'Your Account' }
-                - each val, key in obj
-                  - if (id == key)
-                    li.active
-                      a(href='#{key}') #{val}
-                  - else            
-                    li
-                      a(href='#{key}') #{val}
-    
-    block content
+  block content
     
