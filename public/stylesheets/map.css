@@ -1,5 +1,20 @@
+#map {
+    width: 1050px;
+    height: 476px;
+}
+
+#map svg {
+    background-image: url('/img/worldmap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 circle {
-  fill: #f4df6e;
+  fill: #f8e277;
   stroke: #fca114;
   stroke-width: 5px;
+}
+
+circleFill {
+    fill: #1e1e2e;
 }
