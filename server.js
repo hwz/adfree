@@ -1,8 +1,4 @@
 
-/**
- * Module dependencies.
- */
-
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
@@ -28,10 +24,12 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
+app.get('/', status.website);
 app.get('/compare', routes.compare);
 app.get('/users', user.list);
-app.get('/status/website', status.website);
+app.get('/status/website', function(req, res) {
+  res.redirect('/');
+});
 app.get('/status/task', status.task);
 
 http.createServer(app).listen(app.get('port'), function(){
