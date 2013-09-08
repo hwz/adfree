@@ -22,11 +22,6 @@ body {
   margin: 5px !important;
 }
 
-#linearGraphJobs {
-    position: absolute;
-    left:  800px;
-    top:  100px;
-}
 .veryBad {background-color: #aa0000;
           border-bottom: 9px solid #f66;
 }
