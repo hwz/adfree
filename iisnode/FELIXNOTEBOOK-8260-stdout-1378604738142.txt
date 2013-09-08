@@ -333,3 +333,7 @@ Express server listening on port \\.\pipe\ed43b2d1-6d80-4cd9-b5f4-76cc95b1bbfc
 [90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m48ms[0m
 [90mGET /status/website [36m304 [90m57ms[0m
 [90mGET /status/js/lib/jquery-1.10.1.min.js [33m404 [90m2ms[0m
+[90mGET /status/website [32m200 [90m61ms - 1.69kb[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m10ms[0m
+[90mGET /status/website [36m304 [90m59ms[0m
+[90mGET /js/lib/jquery-1.10.1.min.map [33m404 [90m1ms[0m
